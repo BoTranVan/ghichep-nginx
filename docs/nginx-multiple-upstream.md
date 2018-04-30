@@ -128,7 +128,7 @@
     semodule -i nginx.pp
     ```
 
-    hoặc sửa nội dung của file */etc/selinux/config* bằng việc thay *enforcing* thành "disabled"
+    hoặc sửa nội dung của file */etc/SElinux/config* bằng việc thay *enforcing* thành "disabled"
 
 - Sau đó restart lại dịch vụ :
 

@@ -228,7 +228,7 @@ Sau 3 request :
 
 - Các hoạt động của thuật toán này là nó sẽ gửi một kết nối TCP đến máy chủ , nếu như máy chủ đó lắng nghe trên địa chỉ và port đã cấu hình thì nó mới gửi request đến cho server xử lý.
 
-- Tuy nhiên health check vẫn có lúc kiể tra xem máy chủ có sẵn sàng hay không, đối với các máy chủ cơ sở dữ liệu thì health check không thể làm điều này.
+- Tuy nhiên health check vẫn có lúc kiểm tra xem máy chủ có sẵn sàng hay không, đối với các máy chủ cơ sở dữ liệu thì health check không thể làm điều này.
 
 #### Cấu hình .
 

@@ -59,7 +59,7 @@
 
 		+ Cài đặt MariaDB trên lần lượt các node db01, db02 và db03
 
-				yum install mariadb-server rsync
+				yum install mariadb-server rsync -y
 
 	+ Bước 2: Cấu hình cài đặt, tạo galera cluster cho 3 node db01, db02 và db03:
 
@@ -147,7 +147,7 @@
 
 			wsrep_sst_method=rsync
 
-	+ Bước 3: Tắt SeLinux và thực hiện mở port cho 3 node db01, db02 và db03:
+	+ Bước 3: Tắt SElinux và thực hiện mở port cho 3 node db01, db02 và db03:
 
 		- Mở các port cho phép thực hiện truy vấn database và liên hệ giữa các node trong cụm galera:
 

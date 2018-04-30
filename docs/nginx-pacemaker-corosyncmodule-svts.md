@@ -279,13 +279,13 @@
 			- Các câu lệnh sau thực hiện trên cả 3 node lb01, lb02 và lb03
 
 
-	+ Tắt firewalld và disable selinux:
+	+ Tắt firewalld và disable SElinux:
 
 			sudo systemctl disable firewalld
 			sudo systemctl stop firewalld
 
-			sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
-			sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
+			sed -i 's/SElinux=enforcing/SElinux=disabled/g' /etc/sysconfig/SElinux
+			sed -i 's/SElinux=enforcing/SElinux=disabled/g' /etc/SElinux/config
 
 			init 6
 	
